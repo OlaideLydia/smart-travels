@@ -49,7 +49,7 @@ sudo systemctl reload nginx
 Visit: http://3.253.35.85
 ```
 ## 📸 Screenshot
-![smart travel Screenshot][(https://github.com/OlaideLydia/smart-travels/blob/main/Screenshot.png))
+![smart travel Screenshot](https://github.com/OlaideLydia/smart-travels/blob/main/Screenshot.png)
 
 🛠️ Tools & Technologies
 Amazon EC2
