@@ -49,7 +49,7 @@ sudo systemctl reload nginx
 Visit: http://3.253.35.85
 ```
 ## 📸 Screenshot
-![Screenshot.png](screenshot.png)
+![Screenshot.png](C:\Users\Lydia\Pictures\Screenshots\screenshot.png)
 
 🛠️ Tools & Technologies
 Amazon EC2
