@@ -22,33 +22,34 @@ Smart Travel is a cloud-based landing page hosted on AWS EC2. It showcases the f
 ### 2. **Connected to Instance via SSH**
 ```bash
 ssh -i "smart-travel-key.pem" ubuntu@3.253.35.85
-
+```
 ### 3. **Install and start nginx**
 ```bash
 sudo apt update
 sudo apt install nginx -y
-
+```
 ### 4. **Upload Files to EC2 Server**
 ```bash
 scp -i smart-travel-key.pem index.html style.css lydia.jpg smarttravel.PNG ubuntu@ec2-3-253-35-85.eu-west-1.compute.amazonaws.com:~
-
+```
 ### 5. **Move Files to Web Directory**
 ```bash
 sudo mv ~/index.html ~/style.css ~/lydia.jpg ~/smarttravel.PNG /var/www/html
-
+```
 ### 6. **Configure Nginx**
 ```bash
 sudo nano /etc/nginx/sites-available/default
 root /var/www/html;
 index index.html;
-
-
+```
 ### 7. **Reload nginx**
 sudo systemctl reload nginx
-
-### 8. **View landing page**
+```
+8. View landing page
 Visit: http://3.253.35.85
-
+```
+## 📸 Screenshot
+![Screenshot.png](screenshot.png)
 
 🛠️ Tools & Technologies
 Amazon EC2
